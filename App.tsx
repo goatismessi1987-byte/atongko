@@ -13,11 +13,13 @@ import {
   TrendingUp,
   UserPlus,
   Calendar,
-  Settings as SettingsIcon
-} from 'lucide-react';
-import { Member, Notice, GalleryItem, ViewType, MemberRole, ClubInfo } from './types';
-import { storageService } from './services/storageService';
-import Dashboard from './components/Dashboard';
+import { storageService } from './storageService'; // './services/' মুছে ফেলা হয়েছে
+import Dashboard from './Dashboard';
+import MemberDirectory from './MemberDirectory';
+import NoticeBoard from './NoticeBoard';
+import MediaGallery from './MediaGallery';
+import AboutRoadmap from './AboutRoadmap';
+import Settings from './Settings';
 import MemberDirectory from './components/MemberDirectory';
 import NoticeBoard from './components/NoticeBoard';
 import MediaGallery from './components/MediaGallery';
